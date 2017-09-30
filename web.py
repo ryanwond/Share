@@ -50,6 +50,7 @@ class CreateHandler(tornado.web.RequestHandler):
 
 def main():
     tornado.options.parse_command_line()
+    print "starting server...."
     print "Starting server on port %d" % options.port
     http_server = Application()
     http_server.listen(options.port)
