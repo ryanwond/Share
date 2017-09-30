@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <p>ShareSDK</p>
+    <!--MOB SHARE BEGIN-->
+    <div class="-mob-share-ui-button -mob-share-open">分享</div>
+    <div class="-mob-share-ui" style="display: none">
+        <ul class="-mob-share-list">
+            <li class="-mob-share-weibo">
+                <p>新浪微博</p>
+            </li>
+            <li class="-mob-share-qzone">
+                <p>QQ空间</p>
+            </li>
+            <li class="-mob-share-qq">
+                <p>QQ好友</p>
+            </li>
+            <li class="-mob-share-douban">
+                <p>豆瓣</p>
+            </li>
+            <li class="-mob-share-facebook">
+                <p>Facebook</p>
+            </li>
+            <li class="-mob-share-twitter">
+                <p>Twitter</p>
+            </li>
+        </ul>
+        <div class="-mob-share-close">取消</div>
+    </div>
+    <div class="-mob-share-ui-bg"></div>
+    <script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=你的appkey"></script>
+    <!--MOB SHARE END-->
+    <p>Baidu</p>
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+        <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    </div>
+    <script>
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "0",
+                "bdSize": "16"
+            },
+            "share": {}
+        };
+        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+    </script>
+
+    <!-- <script>
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": ["mshare", "renren", "qzone", "tsina", "bdysc", "weixin", "tqq", "bdxc", "kaixin001", "tqf", "tieba", "douban", "bdhome", "sqq", "thx", "ibaidu", "meilishuo", "mogujie", "diandian", "huaban", "duitang", "hx", "fx",
+                    "youdao", "sdo", "qingbiji", "people", "xinhua", "mail", "isohu", "yaolan", "wealink", "ty", "iguba", "fbook", "twi", "linkedin", "h163", "evernotecn", "copy", "print"
+                ],
+                "bdPic": "",
+                "bdStyle": "0",
+                "bdSize": "16"
+            },
+            "slide": {
+                "type": "slide",
+                "bdImg": "0",
+                "bdPos": "left",
+                "bdTop": "96"
+            }
+        };
+        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+    </script> -->
+</body>
+
+</html>
